@@ -2,7 +2,10 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "engines": { "npm": "6.x", "node": "12.x" },
+  "engines": {
+    "npm": "6.x",
+    "node": "12.x"
+  },
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -14,13 +17,15 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "serve": "^13.0.2",
     "styled-components": "^5.3.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
   },
