@@ -5,7 +5,7 @@ const Form = () => {
         <S.Wrapper>
             <S.Title>Contact Us</S.Title>
             <S.SubTitle>E-mail</S.SubTitle>
-            <S.Content>info@kropka.me</S.Content>
+            <S.Content>kropka.service@gmail.com</S.Content>
             <S.SubTitle>Phone</S.SubTitle>
             <S.Content>+48 516123134</S.Content>
             <S.LinksWrapper>
