@@ -40,6 +40,10 @@ export const Button = styled(MuiButton)`
       color: #2B2B2B;
       margin-top: 40px;
       border-radius: 10px;
+
+      &:disabled {
+        color: rgba(222, 222, 214, 0.5);
+      }
       
       &:hover {
         background-color: #DEDED6;
